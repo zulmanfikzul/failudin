@@ -1,0 +1,98 @@
+/* css untuk detail */
+/* Umum */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+/* Kartu Deskripsi */
+.card {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h3 {
+  text-align: center;
+  color: #007bff;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.card h10 {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.card h7 {
+  font-size: 1.2rem;
+  color: #28a745;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Tombol */
+.btn {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 390px;
+  width: 60%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .navbar h1 {
+    font-size: 1.3rem;
+  }
+}

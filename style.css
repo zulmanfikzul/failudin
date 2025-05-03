@@ -1,0 +1,53 @@
+/* Atur style dasar kartu */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover pada kartu */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Atur gambar agar ukurannya seragam */
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Style tombol WA agar tidak terlalu dekat */
+.card-body a img {
+  margin-left: 10px;
+}
+
+/* Judul pada navbar */
+nav h1 {
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+/* Atur teks heading tengah */
+h2.fw-bold.text-center {
+  margin: 30px 0;
+  color: #333;
+}
+
+/* Responsive fix kalau perlu */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+
+  nav h1 {
+    font-size: 1.2rem;
+  }
+}
