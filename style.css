@@ -50,4 +50,15 @@ h2.fw-bold.text-center {
   nav h1 {
     font-size: 1.2rem;
   }
+
+  .bg-maroon {
+    background-color: #800000 !important; /* Warna maroon */
+  }
+  .navbar-maroon .navbar-brand,
+  .navbar-maroon .nav-link {
+    color: black !important; /* Teks hitam */
+  }
+  .navbar-maroon .nav-link:hover {
+    color: white !important; /* Hover opsional */
+  }
 }
